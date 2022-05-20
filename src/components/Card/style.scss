@@ -1,0 +1,113 @@
+.card-product{
+    height: 270px;
+    width: 340px;
+    border-radius: 20px;
+    cursor: pointer;
+    
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow 500ms;
+    .div-image{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        .img-product{
+            // width: 100%;
+            
+            border-radius: 20px 20px 0px 0px;
+            object-fit: cover;
+            width: 340px;
+            height: 170px;
+        }
+    }
+    
+    .txt-product{
+        justify-content: space-between;
+        display: flex;
+        padding: 15px;
+    }
+}
+.card-product2{
+    height: 140px;
+    width: 100%;
+    border-radius: 20px;
+    // cursor: pointer;
+    margin-bottom: 14px;
+    
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow 500ms;
+    .img-product{
+        width: 100%;
+        border-radius: 20px 20px 0px 0px;
+    }
+    .txt-product{
+        justify-content: space-between;
+        display: flex;
+        padding: 10px;
+    }
+}
+
+.slow-transition {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+    transition: box-shadow 500ms;
+  }
+  
+  .card-product:hover {
+    box-shadow: 0 10px 50px 0 rgba(0, 0, 0, 0.5);
+  }
+.txt-card1{
+    justify-content: space-between;
+    display: contents;
+}
+.txt-card2{
+    justify-content: space-between;
+    display: contents;
+}
+.icon-card{
+    padding: 10px;
+    justify-content: flex-start;
+    display: flex;
+}
+.icon-txt{
+    margin-right: 10px;
+    display: flex;
+    align-items: center;
+}
+.price-txt{
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 15px;
+    color: #FFD542;
+    
+}
+.price-txt2{
+    font-size: 24px;
+    font-weight: 700;
+    color: #1082FF;
+}
+.list-txt{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    
+}
+.pd-price{
+    width: 40%;
+    justify-content: end;
+    display: flex;
+}
+.pd-desc{ 
+    width: 60%;
+}
+
+.loading-bubble{
+    position: fixed;
+    top: 45%;
+    left: 45%;
+    height: 10%;
+    width: 10%;
+}
+.loading-children{
+    
+}
+
