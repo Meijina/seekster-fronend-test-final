@@ -1,7 +1,6 @@
 import axios from "axios";
 let url = "https://api-candidate-test.workforce-develop.com";
-// const https = require('https');
-const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiI2MjcyZDFmZWViY2NmMmU5ZWEwYTE3M2EiLCJpYXQiOjE2NTMwMjk1NjcsImV4cCI6MTY1MzA2NTU2N30.8LI1rMmp8h39JOqlWI0nmSBrXRMAWdjqc2UctAuZCZA";
+const token = "ENTER_YOUR_ACCESS_TOKEN";
 class services {
   constructor(baseURL) {
     this.api = axios.create({
@@ -12,7 +11,6 @@ class services {
         "Content-Type": "application/json",
         "Authorization" :"Bearer "+token
       },
-      // httpsAgent: new https.Agent({rejectUnauthorized: false}),
       withCredentials: false,
     });
     this.api.interceptors.response.use(
