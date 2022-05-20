@@ -1,3 +1,8 @@
+# Before start this project please edit about
+### `change your access token`
+
+In src/api/services.js (line 3)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
